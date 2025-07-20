@@ -7,11 +7,11 @@ contract WorkStorage {
     struct Person {
         uint256 myFavoriteNumber;
         string name;
+        string color;
     }
-    Person public realPerson = Person(50, "john");
 
     // dynamic array
-    Person[] public listOfPerson;
+    Person[] public listOfPersons;
 
     function changer(uint256 _newCoolNumber) public {
         coolNumber = _newCoolNumber;
@@ -20,5 +20,9 @@ contract WorkStorage {
     // view, pure
     function display() public view returns(uint256) {
         return coolNumber;
+    }
+
+    function addMorePersons(uint256 _myFavoriteNumber, string memory _name, string memory _color ) public {
+        listOfPersons.push( Person(_myFavoriteNumber, _name, _color) );
     }
 }

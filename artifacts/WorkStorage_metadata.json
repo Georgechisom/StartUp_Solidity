@@ -9,6 +9,29 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_myFavoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_color",
+						"type": "string"
+					}
+				],
+				"name": "addMorePersons",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_newCoolNumber",
 						"type": "uint256"
 					}
@@ -39,7 +62,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "listOfPerson",
+				"name": "listOfPersons",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -50,23 +73,10 @@
 						"internalType": "string",
 						"name": "name",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "realPerson",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "myFavoriteNumber",
-						"type": "uint256"
 					},
 					{
 						"internalType": "string",
-						"name": "name",
+						"name": "color",
 						"type": "string"
 					}
 				],
@@ -102,11 +112,11 @@
 	},
 	"sources": {
 		"WorkStorage.sol": {
-			"keccak256": "0x24d252ff4b85ac13dfde62b47386d760b94f442cd07b6724525b716a520fbfa7",
+			"keccak256": "0x688f72f15e562a64645a54e96285996731a9edc22bc0c750d6de4edb4e601042",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4746aba97d018adccc801d15be41929c751728f72f7bf0a1208e0d9f3690c916",
-				"dweb:/ipfs/QmanZb2CpAUNrkPyYc3LYsuKw3ksyaWXTutgD8R2AQ2Sga"
+				"bzz-raw://d7c93755fe8b24f0f6a58cbde2ef767fba9a9c91be45fd4696a8a5c51cffd333",
+				"dweb:/ipfs/Qme5YUGsCwGLo1cjiLuXDVZakNU355P7J8B6ZVWbgECMf7"
 			]
 		}
 	},
