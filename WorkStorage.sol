@@ -10,6 +10,8 @@ contract WorkStorage {
         string color;
     }
 
+    mapping(string => uint256) public nameToMyFavoriteNumber; // link names to their myFavoritenumber
+
     // dynamic array
     Person[] public listOfPersons;
 
@@ -24,5 +26,6 @@ contract WorkStorage {
 
     function addMorePersons(uint256 _myFavoriteNumber, string memory _name, string memory _color ) public {
         listOfPersons.push( Person(_myFavoriteNumber, _name, _color) );
+        nameToMyFavoriteNumber[_name] = _myFavoriteNumber;
     }
 }
