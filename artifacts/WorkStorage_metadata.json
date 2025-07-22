@@ -9,29 +9,6 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_myFavoriteNumber",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_color",
-						"type": "string"
-					}
-				],
-				"name": "addMorePersons",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
 						"name": "_newCoolNumber",
 						"type": "uint256"
 					}
@@ -39,19 +16,6 @@
 				"name": "changer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "display",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -131,11 +95,11 @@
 	},
 	"sources": {
 		"WorkStorage.sol": {
-			"keccak256": "0x02ef115375a41628fa4f4159d3f32021d33db4bbe8c164a7f63dc61b140572f3",
+			"keccak256": "0x6a4f72e729212fae4dd59e54b0f06efab71103c48196ae5646fa725e4fe992f3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://965a8b8cb0752a241bbcf8f77bff1bb2583e60a9545c2f63702506b651924798",
-				"dweb:/ipfs/QmNwq52WoFB4o3PS1xUYQSTjpzgWaPRHAys1C346Fqe1TT"
+				"bzz-raw://8c74d02993952608d70c5b96fd57c724d7766f5bf0a65f2b7068512ead741004",
+				"dweb:/ipfs/QmWDUmiacsbs4Qcj7GmZJXvtnthwvs3vjeTDgFwd3YFrtc"
 			]
 		}
 	},

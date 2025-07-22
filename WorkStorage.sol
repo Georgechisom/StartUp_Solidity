@@ -20,12 +20,5 @@ contract WorkStorage {
     }
 
     // view, pure
-    function display() public view returns(uint256) {
-        return coolNumber;
-    }
-
-    function addMorePersons(uint256 _myFavoriteNumber, string memory _name, string memory _color ) public {
-        listOfPersons.push( Person(_myFavoriteNumber, _name, _color) );
-        nameToMyFavoriteNumber[_name] = _myFavoriteNumber;
-    }
+    
 }
